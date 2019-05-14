@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assigment 2</title>
+    <script lang="javascript">
+        function obj(){
+        var arr=[];
+        arr.push({name:document.getElementById("std").value});
+        arr.push({age:document.getElementById("std1").value});
+        arr.push({class:document.getElementById("std2").value});
+        arr.push({section:document.getElementById("std3").value});
+        console.log(arr);
+        }
+    </script>
+</head>
+<body>
+    <label>student name</label>
+    <input type="text" name="name" id="std">
+    <label>Age</label>
+    <input type="text" name="age" id="std1">
+    <label>class</label>
+    <input type="text" name="class" id="std2">
+    <label>section</label>
+    <input type="text" name="sec" id="std3">
+    <button onclick="obj()">submit</button>
+    
+</body>
+</html>
